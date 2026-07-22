@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ThirdParty\tinyxml\tinyxml2.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentQueue.h">
+      <Filter>Collection</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentStack.h">
+      <Filter>Collection</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Collection</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHeader.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketFactory.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBuffer.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUMeter.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashDumper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceDataHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TextParser.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool_TLS.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="NetDevice.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Collection</Filter>
+    </ClInclude>
+    <ClInclude Include="NetStatistics.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSession.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEnum.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConfig.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnection.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ThirdParty\tinyxml\tinyxml2.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialBuffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketFactory.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketBuffer.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashDumper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUMeter.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceDataHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="NetDevice.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConfig.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnection.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{b525d513-2ab1-402e-9c92-d9503c16ba42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collection">
+      <UniqueIdentifier>{dcf4a789-d702-46ee-b3c6-dc2563170c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{34250e0b-97ea-4bbc-8cd1-a8d56196d878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{3212ded7-c261-4b0c-950f-5fc351f21883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{9c6ba0cb-89d7-4929-bea1-033de7a3e054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{21b5c111-0a98-422d-bc2d-f860382aea4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{75d439e8-84e1-489c-80f2-753151801c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{c41c87f0-d703-462a-86b8-692e9886e3f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

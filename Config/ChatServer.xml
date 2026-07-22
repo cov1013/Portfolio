@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<IP>127.0.0.1</IP>
+	<Port>15000</Port>
+	<NetDeviceType>2</NetDeviceType>	<!-- 0: LanServer, 1: LanClient, 2: NetServer, 3: NetClient -->
+	<LogLevel>3</LogLevel>				<!-- 0: None, 1: Error, 2: Warning, 3: Monitor, 4: Debug -->
+	<ProfilerUnit>2</ProfilerUnit>		<!-- 0: Second, 1: MilliSecond, 2: MicroSecond, 3: NanoSecond -->
+	<EnableTCPNagle>false</EnableTCPNagle>
+	<EnableTCPKeepAlive>false</EnableTCPKeepAlive>
+	<EnableZeroCopySend>true</EnableZeroCopySend>
+	<EnableIOCPWorkerSend>true</EnableIOCPWorkerSend>
+	<IOCPWorkerCount>15</IOCPWorkerCount>
+	<IOCPWorkerConcurrentCount>14</IOCPWorkerConcurrentCount>
+	<SessionCount>20000</SessionCount>
+	<PacketCapacity>1024</PacketCapacity>
+	<PacketMaxSize>4096</PacketMaxSize>
+	<PacketCode>119</PacketCode>
+	<PacketKey>50</PacketKey>
+	<PacketChunkElementCount>200</PacketChunkElementCount>
+	<DumpDirectoryPath>./_Dumps/ChatServer</DumpDirectoryPath>
+	<LogDirectoryPath>./_Logs/ChatServer</LogDirectoryPath>
+	<ProfilingDataDirectoryPath>./_ProfilingData/ChatServer</ProfilingDataDirectoryPath>
+	<TimeoutDisconnect>30000</TimeoutDisconnect>
+</Config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetConfig>
+	<networkType>Net</networkType>
+	<ip>127.0.0.1</ip>
+	<port>15000</port>
+	<bEnableZeroCopySend>false</bEnableZeroCopySend>
+	<bEnableNagle>false</bEnableNagle>
+	<bEnableKeepAlive>false</bEnableKeepAlive>
+	<bEnableIocpWorkerSend>false</bEnableIocpWorkerSend>
+	<iocpWorkerCount>1</iocpWorkerCount>
+	<iocpWorkerConcurrentCount>1</iocpWorkerConcurrentCount>
+	<packetCapacity>500</packetCapacity>
+	<packetMaxSize>500</packetMaxSize>
+	<packetCode>119</packetCode>
+	<packetKey>50</packetKey>
+	<dumpDirectoryPath>./_Dumps/GameClient</dumpDirectoryPath>
+	<logDirectoryPath>./_Logs/GameClient</logDirectoryPath>
+	<profilingDataDirectoryPath>./_ProfilingData/GameClient</profilingDataDirectoryPath>
+</NetConfig>

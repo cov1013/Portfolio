@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{835a1fd0-a92a-4e74-96ee-8c17036a55ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{97eb16d8-2867-4ba0-b698-5c673dcd677f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{b803808f-db72-48cf-84fb-904884a91c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{45aca2c7-c11f-4589-82c8-e823133da961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{6bc8707c-fa2a-4fa3-adb3-3a064601c799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Protocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectObject.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSkip.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenDib.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDib.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="GameNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\Protocol.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectObject.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSkip.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenDib.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDib.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameNetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="GameClient.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

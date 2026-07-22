@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<IP>127.0.0.1</IP>
+	<Port>6000</Port>
+	<NetDeviceType>1</NetDeviceType>	<!-- 0: LanServer, 1: LanClient, 2: NetServer, 3: NetClient -->
+	<LogLevel>4</LogLevel>				<!-- 0: None, 1: Error, 2: Warning, 3: Info, 4: Debug -->
+	<ProfilerUnit>2</ProfilerUnit>		<!-- 0: Second, 1: MilliSecond, 2: MicroSecond, 3: NanoSecond -->
+	<EnableTCPNagle>false</EnableTCPNagle>
+	<EnableTCPKeepAlive>false</EnableTCPKeepAlive>
+	<EnableZeroCopySend>false</EnableZeroCopySend>
+	<EnableIOCPWorkerSend>false</EnableIOCPWorkerSend>
+	<IOCPWorkerCount>15</IOCPWorkerCount>
+	<IOCPWorkerConcurrentCount>14</IOCPWorkerConcurrentCount>
+	<SessionCount>1</SessionCount>
+	<PacketCapacity>1024</PacketCapacity>
+	<PacketMaxSize>4096</PacketMaxSize>
+	<PacketChunkElementCount>200</PacketChunkElementCount>
+	<DumpDirectoryPath>./_Dumps/EchoClient</DumpDirectoryPath>
+	<LogDirectoryPath>./_Logs/EchoClient</LogDirectoryPath>
+	<ProfilingDataDirectoryPath>./_ProfilingData/EchoClient</ProfilingDataDirectoryPath>
+</Config>

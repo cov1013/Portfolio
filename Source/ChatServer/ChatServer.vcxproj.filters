@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ChatServer.h" />
+    <ClInclude Include="MonitorThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Actor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ActorManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SectorManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Protocol_Chat.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GameEnums.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GameConfig.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ChatServer.cpp" />
+    <ClCompile Include="MonitorThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Actor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ActorManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SectorManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Protocol_Chat.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandle_Login.cpp">
+      <Filter>PacketHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandle_MoveSector.cpp">
+      <Filter>PacketHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandle_Message.cpp">
+      <Filter>PacketHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandle_Heartbeat.cpp">
+      <Filter>PacketHandle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{a1a1d5ab-a829-484a-81b9-cc675c71bcb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d4a266c6-8a61-4a03-bca4-37082da3634f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketHandle">
+      <UniqueIdentifier>{22abf535-ea41-49d5-b498-b0661a44631f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Config\ChatServer.xml" />
+  </ItemGroup>
+</Project>
